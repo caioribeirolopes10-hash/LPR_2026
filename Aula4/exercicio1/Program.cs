@@ -5,7 +5,7 @@ int x = Convert.ToInt32(Console.ReadLine());
 
 if (x % 2 == 0)
 {
-    Console.WriteLine("Seu número é par");
+    Console.WriteLine("Seu número é parr");
 }
 else
 {
