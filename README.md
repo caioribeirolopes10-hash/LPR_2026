@@ -1,36 +1,17 @@
-Canal do YoTube : https://youtube.com/@juanrh._?si=nau3s4kwLPyO2dtt
+Exercícios de LPR - 2026
+Sobre
 
-Dentro do while(1) o sistema roda continuamente verificando os estados dos botões e executando as funções do programa.
-O primeiro if(configurandoAlunos == 1) verifica se o sistema está no modo de configuração da quantidade de alunos. Nesse modo o display mostra a quantidade atual de alunos. Dentro desse bloco existe um if(BOTAO4 == 0) que aumenta a quantidade de alunos quando o botão 4 é pressionado. Logo em seguida existe um if(qtdAlunos > 50) que limita a quantidade máxima para 50 alunos.
-Depois existe um if(BOTAO2 == 0) que diminui a quantidade de alunos. Dentro dele há outro if(qtdAlunos > 0) que impede que o valor fique negativo.
-Outro if(BOTAO3 == 0) confirma a quantidade escolhida. Quando isso acontece, o sistema salva os dados, define o limite de alunos no banheiro e inicia a aula.
-O if(inicio == 0) verifica se o sistema ainda não começou. Dentro dele existe o if(telaInicialMostrada == 0) que mostra a mensagem inicial apenas uma vez no display.
-O if(BOTAO1 == 0 && botao1Travado == 0 && sistemaIniciado == 0) inicia o sistema quando o BOTAO1 é pressionado. Esse if impede múltiplos acionamentos contínuos do botão. Dentro dele a função Senha() é chamada para gerar a senha aleatória.
-Depois existe o if(BOTAO1 == 1) que destrava o botão quando ele é solto.
-O if(sistemaIniciado == 1 && configurandoAlunos == 0) verifica se o sistema está no modo de digitação da senha. Dentro dele a função MostrarDigitacao() mostra o dígito atual no display.
-O if(BOTAO4 == 0) aumenta o valor do dígito digitado. Dentro dele existe o if(digito > 9) que faz o número voltar para 0 quando ultrapassa 9.
-O if(BOTAO3 == 0) chama a função ConfirmarDigito(), responsável por salvar o número digitado no vetor da tentativa.
-O if(BOTAO2 == 0) diminui o valor do dígito. Dentro dele existe o if(digito > 0) para impedir números negativos.
-O if(posicao == 4) verifica se os 4 dígitos da senha já foram digitados. Dentro dele existe um for que compara cada posição da senha digitada com a senha correta.
-Dentro do for existe o if(tentativa[i] != senha[i]). Se algum número estiver errado, a variável correta recebe 0 e o laço é interrompido com break.
-Depois existe o if(correta) que verifica se a senha está correta. Se estiver correta, o sistema libera o acesso e entra na configuração de alunos.
-O else desse if é executado quando a senha está errada. Nele o número de tentativas aumenta.
-Dentro desse bloco existe o if(tentativas >= 3) que encerra o sistema após 3 erros de senha.
-O if(aulaIniciada == 1) controla todo o funcionamento da aula após sua inicialização.
-Dentro dele existe o if(confirmandoFim == 0) que verifica se a aula está em funcionamento normal.
-O if(qtdAlunos > 0) é usado para calcular a barra de progresso de presença evitando divisão por zero.
-O if(larguraPreenchida > larguraTotal) impede que a barra ultrapasse o tamanho máximo da tela.
-O for(int i = 0; i < larguraPreenchida; i++) desenha a barra verde de presença no display.
-O if(BOTAO3 == 0) entra no modo de confirmação de encerramento da aula.
-O else if(BOTAO1 == 0) registra presença de alunos. Dentro dele existe o if(alunosPresentes < qtdAlunos) que impede ultrapassar o número máximo de alunos cadastrados. Quando válido, chama a função Alunos().
-O else if(BOTAO4 == 0) adiciona alunos no banheiro. Dentro dele existe o if(alunoBanheiro < limiteBanheiro) que impede ultrapassar o limite permitido.
-O else if(BOTAO2 == 0) remove alunos do banheiro. Dentro dele o if(alunoBanheiro > 0) impede números negativos.
-O else do if(confirmandoFim == 0) é executado quando o sistema está confirmando o encerramento da aula.
-O if(BOTAO1 == 0 && BOTAO3 == 0) finaliza a aula quando os dois botões são pressionados juntos.
-O else if(BOTAO2 == 0 || BOTAO4 == 0) cancela a finalização da aula.
-A função Senha() gera 4 números aleatórios utilizando rand() e envia cada número para a função MostrarBinario().
-A função MostrarBinario(int numero) acende os LEDs de acordo com os bits do número usando operadores binários. Os if(numero & 1), if(numero & 2), if(numero & 4) e if(numero & 8) verificam quais LEDs devem ser ligados.
-A função ApagarLeds() desliga todos os LEDs.
-A função MostrarDigitacao() mostra no display qual dígito está sendo digitado.
-A função ConfirmarDigito() salva o dígito atual no vetor tentativa[]. Dentro dela o if(sistemaIniciado == 1 && posicao < 4) garante que só sejam salvos até 4 números.
-A função Alunos() simula um reconhecimento facial mostrando mensagens no display e exibindo uma matrícula
+Olá! Seja bem-vindo ao meu repositório.
+
+Aqui estão reunidos os exercícios desenvolvidos durante a disciplina de LPR (Linguagem de Programação) ao longo de 2026.
+Este repositório tem como objetivo registrar minha evolução na matéria, praticar os conteúdos aprendidos em aula e manter todas as atividades organizadas em um único lugar.
+
+Organização:
+Os exercícios são organizados em pastas ou arquivos separados, facilitando a navegação e a localização de cada atividade conforme ela é desenvolvida.
+À medida que novos conteúdos forem estudados, este repositório será atualizado com novos exercícios.
+
+Observações:
+Este repositório faz parte do meu processo de aprendizagem. Por isso, os códigos podem variar em complexidade conforme o avanço da disciplina, refletindo minha evolução ao longo do curso.
+
+Obrigado por visitar meu repositório. 
+Espero que ele demonstre minha dedicação aos estudos e minha evolução em programação durante 2026.
