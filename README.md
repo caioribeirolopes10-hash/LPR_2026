@@ -1,5 +1,5 @@
 Exercícios de LPR - 2026
-Sobre
+Sobre:
 
 Olá! Seja bem-vindo ao meu repositório.
 
