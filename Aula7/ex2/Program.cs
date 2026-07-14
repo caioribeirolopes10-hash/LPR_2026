@@ -1,6 +1,6 @@
 ﻿using System.Data.Common;
 int [] num = new int[10];
-int pos = 0;
+int posicao = 0;
 Console.WriteLine("Digite dez números para o vetor");
 for (int i = 0; i < num.Length; i++)
 {
