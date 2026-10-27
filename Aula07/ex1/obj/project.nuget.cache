@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jkDA6jt3hJI=",
+  "dgSpecHash": "LkBiMw+6/QI=",
   "success": true,
-  "projectFilePath": "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
+  "projectFilePath": "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caior\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.12\\microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
     "C:\\Users\\caior\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.12\\microsoft.windowsdesktop.app.ref.9.0.12.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj": {}
+    "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj": {
+    "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
+        "projectUniqueName": "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
         "projectName": "ex1",
-        "projectPath": "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
+        "projectPath": "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\ex1.csproj",
         "packagesPath": "C:\\Users\\caior\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\obj\\",
+        "outputPath": "C:\\Users\\caior\\OneDrive\\Desktop\\LPR_2026\\Aula07\\ex1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
